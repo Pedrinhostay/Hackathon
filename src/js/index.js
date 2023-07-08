@@ -1,0 +1,10 @@
+import { countdown1 } from "./countdown.js";
+import { menu } from "./menu.js";
+import { tabs } from "./tabs.js";
+import { carousel1 } from "./carousel.js";
+import { carousel2 } from "./carousel.js";
+countdown1();
+menu();
+tabs();
+carousel1();
+carousel2();

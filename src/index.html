@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Onebitmusic</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <section class="header1" id="header1">
+        <a href="" class="logo"
+          >onebit<span>music</span
+          ><img src="../src/img/Caminho 177.svg" alt="logo da onebitcode"
+        /></a>
+        <nav class="navbar" id="navbar">
+          <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#artist">Artistas</a></li>
+            <li><a href="#programation">Programação</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+          <button id="buy" href="#ingress">Comprar Ingressos</button>
+        </nav>
+        <i class="bx bx-menu" id="menu-icon"></i>
+      </section>
+      <section id="headerContent" class="headerContent">
+        <div class="titleContent">
+          <h1>A sua melhor Experiencia<br /><span>Musical Digital</span></h1>
+          <p>
+            Prepare-se para uma experiência incrível e envolvente, onde a arte
+            se une à performance para criar momentos inesquecíveis. Nossos shows
+            artísticos são projetados para encantar, inspirar e transportar você
+            para um mundo de criatividade e expressão.
+          </p>
+          <div class="btnContent">
+            <button class="start">Começar</button>
+            <button class="play" id="play">
+              <img
+                src="../src/img/Play.svg"
+                alt="botão do play do video"
+              />Assistir Video
+            </button>
+          </div>
+        </div>
+        <div class="containerCount">
+          <div class="countdown">
+            <div>
+              <h1 id="days">00</h1>
+              <p>D</p>
+            </div>
+            <div>
+              <h1 id="hours">00</h1>
+              <p>H</p>
+            </div>
+            <div>
+              <h1 id="minutes">00</h1>
+              <p>M</p>
+            </div>
+            <div>
+              <h1 id="seconds">00</h1>
+              <p>S</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="artist" id="artist">
+        <div class="about">
+          <div class="aboutImg">
+            <img src="./img/about.svg" alt="imagem do about" />
+          </div>
+          <div class="description">
+            <h2>Sobre a gente</h2>
+            <p>
+              Na onebitmusic, estamos redefinindo a maneira como experimentamos
+              e nos envolvemos com a música, utilizando tecnologia de realidade
+              virtual (VR) para criar shows e performances que transcendem os
+              limites físicos e levam você a novos patamares de entretenimento
+              musical.
+            </p>
+            <button>Ler Mais<i class="bx bx-right-arrow-alt"></i></button>
+          </div>
+        </div>
+        <div class="artistList">
+          <div class="description">
+            <h2>Artista</h2>
+            <p>
+              No evento da OneBitMusic, você terá a oportunidade de desfrutar de
+              uma incrível variedade de artistas talentosos. Nossa seleção
+              musical abrange diferentes gêneros e estilos, garantindo uma
+              experiência musical diversificada e emocionante. De DJs renomados
+              a bandas cativantes, cada artista traz sua paixão e habilidade
+              para criar performances envolventes. Prepare-se para se
+              surpreender com músicas cativantes, ritmos vibrantes e momentos
+              emocionantes durante todo o evento. Os artistas da OneBitMusic
+              estão prontos para levar você a uma jornada musical única e
+              inesquecível.
+            </p>
+            <button>
+              Veja a lista completa<i class="bx bx-right-arrow-alt"></i>
+            </button>
+          </div>
+          <div class="artistImg">
+            <img src="./img/artist.svg" alt="imagem dos artistas" />
+          </div>
+        </div>
+      </section>
+      <!----------Tabs----------->
+      <section class="tabs">
+        <h1>Nossa Programação</h1>
+        <div class="tabsHead">
+          <div class="tabsToggle is-active">
+            <span class="tabsName">Dia 1</span>
+          </div>
+          <div class="tabsToggle">
+            <span class="tabsName">Dia 2</span>
+          </div>
+          <div class="tabsToggle">
+            <span class="tabsName">Dia 3</span>
+          </div>
+        </div>
+        <div class="tabsBody">
+          <div class="tabsContent is-active">
+            <div class="tabsContainer">
+              <!--Box Inicial-->
+              <div class="box">
+                <h2>Hora</h2>
+                <h2>Conteudo</h2>
+                <h2>Artista</h2>
+              </div>
+              <!--Box 1-->
+              <div class="box">
+                <h3>11:00 AM to 12:00 PM</h3>
+                <h2>
+                  Desfrute de uma performance emocionante com Yui Ronald, um
+                  artista solo que encanta o público com sua voz cativante e
+                  letras inspiradoras. Prepare-se para uma noite de músicas
+                  envolventes e momentos emocionantes.
+                </h2>
+                <div class="boxAvatar">
+                  <span class="avatar"
+                    ><img src="./img/Avatar.svg" alt="imagem do Yui" />Yui
+                    Ronald</span
+                  >
+                </div>
+                <button>
+                  Previa
+                  <img src="../src/img/Play.svg" alt="botão do play do video" />
+                </button>
+              </div>
+              <!--Box 2-->
+              <div class="box">
+                <h3>12:00 PM to 03:00 PM</h3>
+                <h2>
+                  O trio que vai levar você a uma jornada musical com suas
+                  harmonias vocais encantadoras e arranjos instrumentais
+                  cativantes. Prepare-se para desfrutar de um repertório
+                  diversificado que abrange diversos estilos musicais e emocione
+                  seus sentidos.
+                </h2>
+                <div class="boxAvatar">
+                  <span class="avatar"
+                    ><img src="./img/Avatar (1).svg" alt="imagem do BOB" />Bob
+                    John</span
+                  >
+                  <span class="avatar"
+                    ><img src="./img/Avatar.svg" alt="imagem do Yui" />Yui
+                    Ronald</span
+                  >
+                  <span class="avatar"
+                    ><img src="./img/Avatar (2).svg" alt="imagem do Emma" />Emma
+                    Satoshi</span
+                  >
+                </div>
+                <button>
+                  Ao vivo
+                  <img
+                    src="../src/img/Live Camera.svg"
+                    alt="botão do play do video"
+                  />
+                </button>
+              </div>
+              <!--Box 3-->
+              <div class="box">
+                <h3>03:00 PM to 04:00 PM</h3>
+                <h2>
+                  A dupla que vai conquistar seu coração com sua música
+                  cativante e performances cheias de energia. Com sua sintonia
+                  perfeita e talento extraordinário, eles criarão um ambiente
+                  envolvente e contagiarão o público com seu estilo musical
+                  único.
+                </h2>
+                <div class="boxAvatar">
+                  <span class="avatar"
+                    ><img
+                      src="./img/Avatar (3).svg"
+                      alt="imagem do Sasha"
+                    />Sasha Jackson</span
+                  >
+                  <span class="avatar"
+                    ><img
+                      src="./img/Avatar (4).svg"
+                      alt="imagem do Diana"
+                    />Diana Brock</span
+                  >
+                </div>
+                <button>
+                  Previa
+                  <img src="../src/img/Play.svg" alt="botão do play do video" />
+                </button>
+              </div>
+            </div>
+          </div>
+          <!--Day 2-->
+          <div class="tabsContent">
+            <div class="tabsContainer">
+              <!--Box Inicial-->
+              <div class="box">
+                <h2>Hora</h2>
+                <h2>Conteudo</h2>
+                <h2>Artista</h2>
+              </div>
+              <!--Box 1-->
+              <div class="box">
+                <h3>11:00 AM to 12:00 PM</h3>
+                <h2>
+                  Desfrute de uma performance emocionante com Yui Ronald, um
+                  artista solo que encanta o público com sua voz cativante e
+                  letras inspiradoras. Prepare-se para uma noite de músicas
+                  envolventes e momentos emocionantes.
+                </h2>
+                <div class="boxAvatar">
+                  <span class="avatar"
+                    ><img src="./img/Avatar (2).svg" alt="imagem do Emma" />Emma
+                    Satoshi</span
+                  >
+                </div>
+                <button>
+                  Previa
+                  <img src="../src/img/Play.svg" alt="botão do play do video" />
+                </button>
+              </div>
+              <!--Box 2-->
+              <div class="box">
+                <h3>09:00 PM to 13:00 PM</h3>
+                <h2>
+                  O trio que vai levar você a uma jornada musical com suas
+                  harmonias vocais encantadoras e arranjos instrumentais
+                  cativantes. Prepare-se para desfrutar de um repertório
+                  diversificado que abrange diversos estilos musicais e emocione
+                  seus sentidos.
+                </h2>
+                <div class="boxAvatar">
+                  <span class="avatar"
+                    ><img src="./img/Avatar (1).svg" alt="imagem do Bob" />Bob
+                    John</span
+                  >
+                  <span class="avatar"
+                    ><img src="./img/Avatar (2).svg" alt="imagem do Emma" />Emma
+                    Satoshi</span
+                  >
+                </div>
+                <button>
+                  Previa
+                  <img src="../src/img/Play.svg" alt="botão do play do video" />
+                </button>
+              </div>
+              <!--Box 3-->
+              <div class="box">
+                <h3>05:00 PM to 07:00 PM</h3>
+                <h2>
+                  A dupla que vai conquistar seu coração com sua música
+                  cativante e performances cheias de energia. Com sua sintonia
+                  perfeita e talento extraordinário, eles criarão um ambiente
+                  envolvente e contagiarão o público com seu estilo musical
+                  único.
+                </h2>
+                <div class="boxAvatar">
+                  <span class="avatar"
+                    ><img
+                      src="./img/Avatar (3).svg"
+                      alt="imagem do Sasha"
+                    />Sasha Jackson</span
+                  >
+                  <span class="avatar"
+                    ><img src="./img/Avatar (1).svg" alt="imagem do Bob" />Bob
+                    John</span
+                  >
+                </div>
+                <button>
+                  Previa
+                  <img src="../src/img/Play.svg" alt="botão do play do video" />
+                </button>
+              </div>
+            </div>
+          </div>
+          <!--Day 3-->
+          <div class="tabsContent">
+            <div class="tabsContainer">
+              <!--Box Inicial-->
+              <div class="box">
+                <h2>Hora</h2>
+                <h2>Conteudo</h2>
+                <h2>Artista</h2>
+              </div>
+              <!--Box 1-->
+              <div class="box">
+                <h3>11:00 AM to 12:00 PM</h3>
+                <h2>
+                  Desfrute de uma performance emocionante com Yui Ronald, um
+                  artista solo que encanta o público com sua voz cativante e
+                  letras inspiradoras. Prepare-se para uma noite de músicas
+                  envolventes e momentos emocionantes.
+                </h2>
+                <div class="boxAvatar">
+                  <span class="avatar"
+                    ><img src="./img/Avatar.svg" alt="imagem do Yui" />Yui
+                    Ronald</span
+                  >
+                </div>
+                <button>
+                  Previa
+                  <img src="../src/img/Play.svg" alt="botão do play do video" />
+                </button>
+              </div>
+              <!--Box 2-->
+              <div class="box">
+                <h3>14:00 PM to 18:00 PM</h3>
+                <h2>
+                  O trio que vai levar você a uma jornada musical com suas
+                  harmonias vocais encantadoras e arranjos instrumentais
+                  cativantes. Prepare-se para desfrutar de um repertório
+                  diversificado que abrange diversos estilos musicais e emocione
+                  seus sentidos.
+                </h2>
+                <div class="boxAvatar">
+                  <span class="avatar"
+                    ><img src="./img/Avatar (1).svg" alt="imagem do Bob" />Bob
+                    John</span
+                  >
+                  <span class="avatar"
+                    ><img src="./img/Avatar.svg" alt="imagem do Yui" />Yui
+                    Ronald</span
+                  >
+                  <span class="avatar"
+                    ><img src="./img/Avatar (2).svg" alt="imagem do Emma" />Emma
+                    Satoshi</span
+                  >
+                </div>
+                <button>
+                  Previa
+                  <img src="../src/img/Play.svg" alt="botão do play do video" />
+                </button>
+              </div>
+              <!--Box 3-->
+              <div class="box">
+                <h3>03:00 PM to 04:00 PM</h3>
+                <h2>
+                  A dupla que vai conquistar seu coração com sua música
+                  cativante e performances cheias de energia. Com sua sintonia
+                  perfeita e talento extraordinário, eles criarão um ambiente
+                  envolvente e contagiarão o público com seu estilo musical
+                  único.
+                </h2>
+                <div class="boxAvatar">
+                  <span class="avatar"
+                    ><img
+                      src="./img/Avatar (3).svg"
+                      alt="imagem do Sasha"
+                    />Sasha Jackson</span
+                  >
+                  <span class="avatar"
+                    ><img
+                      src="./img/Avatar (4).svg"
+                      alt="imagem do Diana"
+                    />Diana Brock</span
+                  >
+                </div>
+                <button>
+                  Previa
+                  <img src="../src/img/Play.svg" alt="botão do play do video" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="ingress" id="ingress">
+        <h2 class="heading">Escolha o tipo de ingresso</h2>
+        <div class="contentIngress">
+          <div class="boxIngress basic">
+            <div class="descriptionBox">
+              <h4>Basico</h4>
+              <span>R$100</span>
+              <p>Acesso aos shows digitais</p>
+              <p>Experiencia musical imersiva</p>
+              <p>Preço acessivel</p>
+              <button>Saber Mais</button>
+            </div>
+          </div>
+          <div class="boxIngress default">
+            <div class="descriptionBox">
+              <h4>Padrao</h4>
+              <span>R$150</span>
+              <p>Acesso aos shows digitais</p>
+              <p>Beneficios Extras</p>
+              <p>Possibilidade de interagir com artistas</p>
+              <button>Saber Mais</button>
+            </div>
+          </div>
+          <div class="boxIngress vip">
+            <div class="descriptionBox">
+              <h4>Vip</h4>
+              <span>R$200</span>
+              <p>Acesso aos shows digitais</p>
+              <p>Vantagens adicionais</p>
+              <p>Experiência VIP</p>
+              <button>Saber Mais</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="invest">
+        <h2 class="heading">Nossos investidores</h2>
+        <div class="investContainer">
+          <div class="boxInvest">
+            <img src="./img/google.svg" alt="simbolo da google" />
+          </div>
+          <div class="boxInvest">
+            <img src="./img/microsoft.svg" alt="simbolo da microsoft" />
+          </div>
+          <div class="boxInvest">
+            <img src="./img/airbnb.svg" alt="simbolo da airbnb" />
+          </div>
+          <div class="boxInvest">
+            <img src="./img/axure.svg" alt="simbolo da axure" />
+          </div>
+          <div class="boxInvest">
+            <img src="./img/apple.svg" alt="simbolo da apple" />
+          </div>
+          <div class="boxInvest">
+            <img src="./img/facebook.svg" alt="simbolo da facebook" />
+          </div>
+          <div class="boxInvest">
+            <img src="./img/nokia.svg" alt="simbolo da nokia" />
+          </div>
+          <div class="boxInvest">
+            <img src="./img/oracle.svg" alt="simbolo da oracle" />
+          </div>
+        </div>
+        <button id="turnInvest">Se torne um investidor</button>
+      </section>
+    </main>
+    <article>
+      <h1 class="heading">Relatos</h1>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="testimonialBox">
+              <img src="./img/Quotes.svg" class="quotes" alt="quotes" />
+              <div class="contentC">
+                <p>
+                  Através dos shows digitais e da tecnologia de realidade
+                  virtual da OneBitMusic, pude mergulhar em um universo musical
+                  fascinante. Os visuais deslumbrantes, a qualidade do áudio e a
+                  interatividade oferecida pela plataforma me deixaram
+                  maravilhado. A OneBitMusic realmente entende como proporcionar
+                  experiências musicais únicas e memoráveis.
+                </p>
+                <div class="details">
+                  <div class="imgBx">
+                    <img src="./img/coments.svg" alt="" />
+                    <h3>Carlos <br /><span>Rio de Janeiro</span></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonialBox">
+              <img src="./img/Quotes.svg" class="quotes" alt="quotes" />
+              <div class="contentC">
+                <p>
+                  Através dos shows digitais e da tecnologia de realidade
+                  virtual da OneBitMusic, pude mergulhar em um universo musical
+                  fascinante. Os visuais deslumbrantes, a qualidade do áudio e a
+                  interatividade oferecida pela plataforma me deixaram
+                  maravilhado. A OneBitMusic realmente entende como proporcionar
+                  experiências musicais únicas e memoráveis.
+                </p>
+                <div class="details">
+                  <div class="imgBx">
+                    <img src="./img/coments3.svg" alt="" />
+                    <h3>Ana <br /><span>Belo Horizonte</span></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonialBox">
+              <img src="./img/Quotes.svg" class="quotes" alt="quotes" />
+              <div class="contentC">
+                <p>
+                  Através dos shows digitais e da tecnologia de realidade
+                  virtual da OneBitMusic, pude mergulhar em um universo musical
+                  fascinante. Os visuais deslumbrantes, a qualidade do áudio e a
+                  interatividade oferecida pela plataforma me deixaram
+                  maravilhado. A OneBitMusic realmente entende como proporcionar
+                  experiências musicais únicas e memoráveis.
+                </p>
+                <div class="details">
+                  <div class="imgBx">
+                    <img src="./img/coments.svg" alt="" />
+                    <h3>Carlos <br /><span>Rio de Janeiro</span></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonialBox">
+              <img src="./img/Quotes.svg" class="quotes" alt="quotes" />
+              <div class="contentC">
+                <p>
+                  Através dos shows digitais e da tecnologia de realidade
+                  virtual da OneBitMusic, pude mergulhar em um universo musical
+                  fascinante. Os visuais deslumbrantes, a qualidade do áudio e a
+                  interatividade oferecida pela plataforma me deixaram
+                  maravilhado. A OneBitMusic realmente entende como proporcionar
+                  experiências musicais únicas e memoráveis.
+                </p>
+                <div class="details">
+                  <div class="imgBx">
+                    <img src="./img/coments2.svg" alt="quotes" />
+                    <h3>Carlos <br /><span>Rio de Janeiro</span></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonialBox">
+              <img src="./img/Quotes.svg" class="quotes" alt="quotes" />
+              <div class="contentC">
+                <p>
+                  Através dos shows digitais e da tecnologia de realidade
+                  virtual da OneBitMusic, pude mergulhar em um universo musical
+                  fascinante. Os visuais deslumbrantes, a qualidade do áudio e a
+                  interatividade oferecida pela plataforma me deixaram
+                  maravilhado. A OneBitMusic realmente entende como proporcionar
+                  experiências musicais únicas e memoráveis.
+                </p>
+                <div class="details">
+                  <div class="imgBx">
+                    <img src="./img/coments3.svg" alt="" />
+                    <h3>Carlos <br /><span>Rio de Janeiro</span></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonialBox">
+              <img src="./img/Quotes.svg" class="quotes" alt="quotes" />
+              <div class="contentC">
+                <p>
+                  Através dos shows digitais e da tecnologia de realidade
+                  virtual da OneBitMusic, pude mergulhar em um universo musical
+                  fascinante. Os visuais deslumbrantes, a qualidade do áudio e a
+                  interatividade oferecida pela plataforma me deixaram
+                  maravilhado. A OneBitMusic realmente entende como proporcionar
+                  experiências musicais únicas e memoráveis.
+                </p>
+                <div class="details">
+                  <div class="imgBx">
+                    <img src="./img/coments.svg" alt="" />
+                    <h3>Carlos <br /><span>Rio de Janeiro</span></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonialBox">
+              <img src="./img/Quotes.svg" class="quotes" alt="quotes" />
+              <div class="contentC">
+                <p>
+                  Através dos shows digitais e da tecnologia de realidade
+                  virtual da OneBitMusic, pude mergulhar em um universo musical
+                  fascinante. Os visuais deslumbrantes, a qualidade do áudio e a
+                  interatividade oferecida pela plataforma me deixaram
+                  maravilhado. A OneBitMusic realmente entende como proporcionar
+                  experiências musicais únicas e memoráveis.
+                </p>
+                <div class="details">
+                  <div class="imgBx">
+                    <img src="./img/coments2.svg" alt="" />
+                    <h3>Julia<br /><span>São Paulo</span></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="galery">
+      <h1 class="heading">Galeria de momentos Compartilhados</h1>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide carousel">
+            <div class="boxImg">
+              <img src="./img/carousel2.svg" alt="" />
+            </div>
+            <div class="descriptionCarousel">
+              <div class="carousel-fav-item">
+                <h6><i class="bx bx-heart"></i>1.200</h6>
+                <h6><i class="bx bx-message"></i>100</h6>
+              </div>
+              <div class="carousel-description">
+                <h3>Noite Inesquecível com OneBitMusic</h3>
+                <p>
+                  Uma foto do incrível show de realidade virtual da
+                  #OneBitMusic, onde a música e a tecnologia se encontram para
+                  criar uma experiência única. Obrigado a todos que
+                  compartilharam esse momento conosco!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide carousel">
+            <div class="boxImg">
+              <img src="./img/carousel3.svg" alt="" />
+            </div>
+            <div class="descriptionCarousel">
+              <div class="carousel-fav-item">
+                <h6><i class="bx bx-heart"></i>1.200</h6>
+                <h6><i class="bx bx-message"></i>100</h6>
+              </div>
+              <div class="carousel-description">
+                <h3>Vibrações Eletrizantes na OneBitMusic</h3>
+                <p>
+                  Uma imagem que captura a energia contagiante do show digital
+                  da #OneBitMusic. Os visuais hipnotizantes e a batida pulsante
+                  nos transportaram para uma jornada musical incrível.
+                  Compartilhe suas fotos e faça parte da nossa galeria de fãs!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide carousel">
+            <div class="boxImg">
+              <img src="./img/carousel5.svg" alt="" />
+            </div>
+            <div class="descriptionCarousel">
+              <div class="carousel-fav-item">
+                <h6><i class="bx bx-heart"></i>1.200</h6>
+                <h6><i class="bx bx-message"></i>100</h6>
+              </div>
+              <div class="carousel-description">
+                <h3>Vibrações Eletrizantes na OneBitMusic</h3>
+                <p>
+                  Uma imagem que captura a energia contagiante do show digital
+                  da #OneBitMusic. Os visuais hipnotizantes e a batida pulsante
+                  nos transportaram para uma jornada musical incrível.
+                  Compartilhe suas fotos e faça parte da nossa galeria de fãs!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide carousel">
+            <div class="boxImg">
+              <img src="./img/carousel4.svg" alt="" />
+            </div>
+            <div class="descriptionCarousel">
+              <div class="carousel-fav-item">
+                <h6><i class="bx bx-heart"></i>1.200</h6>
+                <h6><i class="bx bx-message"></i>100</h6>
+              </div>
+              <div class="carousel-description">
+                <h3>Vibrações Eletrizantes na OneBitMusic</h3>
+                <p>
+                  Uma imagem que captura a energia contagiante do show digital
+                  da #OneBitMusic. Os visuais hipnotizantes e a batida pulsante
+                  nos transportaram para uma jornada musical incrível.
+                  Compartilhe suas fotos e faça parte da nossa galeria de fãs!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide carousel">
+            <div class="boxImg">
+              <img src="./img/carousel2.svg" alt="" />
+            </div>
+            <div class="descriptionCarousel">
+              <div class="carousel-fav-item">
+                <h6><i class="bx bx-heart"></i>1.200</h6>
+                <h6><i class="bx bx-message"></i>100</h6>
+              </div>
+              <div class="carousel-description">
+                <h3>Vibrações Eletrizantes na OneBitMusic</h3>
+                <p>
+                  Uma imagem que captura a energia contagiante do show digital
+                  da #OneBitMusic. Os visuais hipnotizantes e a batida pulsante
+                  nos transportaram para uma jornada musical incrível.
+                  Compartilhe suas fotos e faça parte da nossa galeria de fãs!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide carousel">
+            <div class="boxImg">
+              <img src="./img/carousel.svg" alt="" />
+            </div>
+            <div class="descriptionCarousel">
+              <div class="carousel-fav-item">
+                <h6><i class="bx bx-heart"></i>1.200</h6>
+                <h6><i class="bx bx-message"></i>100</h6>
+              </div>
+              <div class="carousel-description">
+                <h3>Vibrações Eletrizantes na OneBitMusic</h3>
+                <p>
+                  Uma imagem que captura a energia contagiante do show digital
+                  da #OneBitMusic. Os visuais hipnotizantes e a batida pulsante
+                  nos transportaram para uma jornada musical incrível.
+                  Compartilhe suas fotos e faça parte da nossa galeria de fãs!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide carousel">
+            <div class="boxImg">
+              <img src="./img/galery.svg" alt="" />
+            </div>
+            <div class="descriptionCarousel">
+              <div class="carousel-fav-item">
+                <h6><i class="bx bx-heart"></i>1.200</h6>
+                <h6><i class="bx bx-message"></i>100</h6>
+              </div>
+              <div class="carousel-description">
+                <h3>Vibrações Eletrizantes na OneBitMusic</h3>
+                <p>
+                  Uma imagem que captura a energia contagiante do show digital
+                  da #OneBitMusic. Os visuais hipnotizantes e a batida pulsante
+                  nos transportaram para uma jornada musical incrível.
+                  Compartilhe suas fotos e faça parte da nossa galeria de fãs!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </article>
+    <section>
+      <div class="contact" id="contact">
+        <div class="contentInfo">
+          <h3>Nos contate</h3>
+          <div class="contacts">
+            <span><i class="bx bx-phone"></i>+55 99823-3232</span>
+            <span><i class="bx bx-envelope"></i>contato@onebitmusic.com</span>
+          </div>
+        </div>
+        <form action="">
+          <h1>Preencha com seus dados</h1>
+          <div class="inputs">
+            <label for="name">Nome</label>
+            <input type="text" id="name" />
+          </div>
+          <div class="inputs">
+            <label for="email">Email</label>
+            <input type="text" id="email" />
+          </div>
+          <div class="inputs">
+            <label for="message">Mensagem</label>
+            <input type="text" id="message" />
+          </div>
+          <button class="btnContact">Enviar</button>
+        </form>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>
